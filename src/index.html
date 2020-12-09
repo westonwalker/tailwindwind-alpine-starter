@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindSites - Product Landing Pages</title>
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <nav>
+
+        </nav>
+    </section>
+    <h1 class="animate__animated animate__swing">Testing f</h1>
+    <div x-data="{ open: false }">
+        <button @click="open = true">Open Dropdown</button> 
+        <ul x-show="open" @click.away="open = false">
+            Dropdown Body
+        </ul>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
